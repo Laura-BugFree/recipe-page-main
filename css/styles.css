@@ -165,10 +165,8 @@ td {
         margin: 8em auto;
     }
 
-    .article-img {
-        
-        margin: 3em 3em 0;
-        
+    .article-img {        
+        margin: 3em 3em 0;        
     }
 
     .article-wrapper,
@@ -176,3 +174,12 @@ td {
         border-radius: 1.5rem;
     }
 }
+
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+    margin-block-end: 10em;
+ }
+
+.attribution a { color: hsl(228, 45%, 44%); }
