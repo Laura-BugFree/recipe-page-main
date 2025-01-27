@@ -64,7 +64,7 @@ body {
 
 h1, h2, h3 {
     letter-spacing: .025em;
-    line-height: 1;
+    line-height: 1.2;
 }
 
 h1, h2 {
@@ -150,6 +150,19 @@ td {
     padding-block-end: .5em;
 }
 
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+    margin-block: 5em;
+ }
+
+.attribution a { color: hsl(228, 45%, 44%); }
+
+.attribution a:hover,
+.attribution a:focus-visible {
+    color: hsl(14, 45%, 36%);
+}
+
 .flex {
     display: flex;
     flex-direction: column;
@@ -159,7 +172,7 @@ td {
     order: 1;
 }
 
-@media (width > 1440px) {
+@media (width > 1400px) {
     .article-wrapper {
         max-inline-size: 45%;
         margin: 8em auto;
@@ -173,13 +186,11 @@ td {
     .article-img {
         border-radius: 1.5rem;
     }
+
+    .attribution { 
+        margin-block-end: 10em;
+     }
+    
 }
 
 
-.attribution { 
-    font-size: 11px; 
-    text-align: center;
-    margin-block-end: 10em;
- }
-
-.attribution a { color: hsl(228, 45%, 44%); }
